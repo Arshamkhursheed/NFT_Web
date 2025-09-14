@@ -1,14 +1,19 @@
-<!DOCTYPE html>
+# Step 1: Create `index.html` ```html
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My First Git Page</title>
 </head>
 
 <body>
-    <h1>,sabck</h1>
+    <h1>Hello from Git!</h1>
 </body>
 
 </html>
+``` # Step 2: Git Commands Open your terminal in the project folder and run: ```bash # Initialize git (only once if not already done) git init # Add your remote repo (replace URL with your repo link) git remote add origin https://github.com/USERNAME/REPO_NAME.git
+# Check status git status # Add index.html to staging git add index.html # Commit changes git commit -m "Add index.html with h1" # Push to main branch (if your repo uses main) git push -u origin main # Or if your repo uses master git push -u origin master
+``` Now your `index.html` with an `
+<h1>` heading will be uploaded to GitHub. ✅
